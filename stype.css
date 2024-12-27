@@ -9,13 +9,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: antiquewhite;
 }
 .content {
-  background: #090a2e;
+  background: #1007be;
   /* background: linear-gradient(to right, #0745e3, #078be3, #0745e3); */
 
   padding: 20px;
   border-radius: 10px;
+  border: 5px solid #000;
 }
 .content form input {
   border: 0;
@@ -40,12 +42,19 @@
 }
 form .output {
   display: flex;
+  border-radius: 10px;
+  background-color: #1b3636;
   justify-content: flex-end;
   margin: 15px 0;
 }
 form .output input {
   background-color: #6cdbe6;
+  margin: 5px;
+  padding-right: 10px;
   text-align: right;
   flex: 1;
   font-size: 25px;
+}
+form .btn input {
+  border: 3px solid #000;
 }
